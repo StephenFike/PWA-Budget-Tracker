@@ -2,9 +2,12 @@
   "name": "pwa-budget-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/StephenFike/PWA-Budget-Tracker/issues"
   },
-  "homepage": "https://github.com/StephenFike/PWA-Budget-Tracker#readme"
+  "homepage": "https://github.com/StephenFike/PWA-Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.9.2"
+  }
 }
