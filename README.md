@@ -23,7 +23,7 @@ From the command line run ```npm start``` to run this app locally. Or download t
 You can also view the [live deployment here!]()
 
 ## Screenshot
-![]()
+![App screenshot](./assets/app-screenshot.png)
 
 ## Made with
 HTML, CSS, JavaScript
