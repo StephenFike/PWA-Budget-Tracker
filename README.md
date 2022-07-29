@@ -20,6 +20,10 @@ Clone the repository and run ```npm i``` to install dependencies.
 
 ## Usage
 From the command line run ```npm start``` to run this app locally. Or download the app to your desktop!.
+You can also view the [live deployment here!]()
+
+## Screenshot
+![]()
 
 ## Made with
 HTML, CSS, JavaScript
