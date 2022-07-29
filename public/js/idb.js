@@ -1,6 +1,6 @@
 let db;
 
-const request = indexedDB.open('pwa-budget-tracker', 1);
+const request = indexedDB.open('pwa_budget_tracker', 1);
 
 request.onupgradeneeded = function(event) {
     const db = event.target.result;
@@ -10,7 +10,7 @@ request.onupgradeneeded = function(event) {
 request.onsuccess = function(event) {
     db = event.target.result;
 
-    if(navigator.online) {
+    if(navigator.onLine) {
         uploadTransaction();
     }
 };
@@ -37,7 +37,7 @@ function uploadTransaction() {
 
     getAll.onsuccess = function() {
         if(getAll.result.length > 0) {
-            fetch('/api/transaction', {
+            fetch('/api/transaction/bulk', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
                 headers: {
