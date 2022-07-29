@@ -29,7 +29,7 @@ function saveRecord(record) {
 }
 
 function uploadTransaction() {
-    const transaction = db.transaction(['new_transaciton'], 'readwrite');
+    const transaction = db.transaction(['new_transaction'], 'readwrite');
 
     const transactionObjectStore = transaction.objectStore('new_transaction');
 
@@ -51,7 +51,7 @@ function uploadTransaction() {
                     throw new Error(serverResponse);
                 }
             
-                const transaction = db.transaction(['new_transaciton'], 'readwrite');
+                const transaction = db.transaction(['new_transaction'], 'readwrite');
 
                 const transactionObjectStore = transaction.objectStore('new_transaction');
 
