@@ -4,7 +4,7 @@
 
 ## Description
 
-This is app is a PWA that helps you keep a budget and track it on a graph..
+This is app is a PWA that helps you keep a budget and track it on a graph.
 
 ## Table of Contents
 
@@ -16,19 +16,17 @@ This is app is a PWA that helps you keep a budget and track it on a graph..
 - [Questions](#questions)
 
 ## Installation
-Clone the repository and run ```npm i``` to install dependencies..
+Clone the repository and run ```npm i``` to install dependencies.
 
 ## Usage
 From the command line run ```npm start``` to run this app locally. Or download the app to your desktop!.
+You can also view the [live deployment here!]()
+
+## Screenshot
+![]()
 
 ## Made with
 HTML, CSS, JavaScript
-
-## Contributions
-Na.
-
-## Tests
-Na.
 
 ## Questions
 If you have any questions you can reach me here:  
